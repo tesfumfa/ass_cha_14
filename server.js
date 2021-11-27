@@ -1,5 +1,4 @@
 // Server for MVC Tech Blog
-
 // Dependencies
 // path module
 const path = require('path');
@@ -37,7 +36,7 @@ const sess = {
 // Initialize the server
 const app = express();
 // Define the port for the server
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3052;
 
 // Give the server a path to the public directory for static files
 app.use(express.static(path.join(__dirname, 'public')));
