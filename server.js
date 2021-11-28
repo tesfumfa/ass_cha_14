@@ -1,6 +1,9 @@
 // Server for MVC Tech Blog
 // Dependencies
 // path module
+const fs = require('fs')
+const http = require('http')
+
 const path = require('path');
 // dotenv file for sensitive configuration information
 require('dotenv').config();
@@ -60,4 +63,5 @@ app.use(routes);
 // force: false to maintain data - aka normal operation
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log('Now listening'));
+   
   });
