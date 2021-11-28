@@ -9,12 +9,10 @@
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
-
   "engines": {
     "node": "12.x",
     "npm": "6.14.15"
-},
-
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tesfumfa/ass_cha_14.git"
@@ -34,6 +32,7 @@
     "express-handlebars": "^6.0.2",
     "express-session": "^1.17.2",
     "handlebars-helpers": "^0.10.0",
+    "highlight.js": "^11.3.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.12.0-alpha.1"
   }
