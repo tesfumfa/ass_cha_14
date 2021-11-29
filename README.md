@@ -51,4 +51,6 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 <img src="public/images/Screenshot_5.png" /><br>
 <img src="public/images/Screenshot_6.png" /><br>
 <img src="public/images/Screenshot_7.png" />
+<h2>Website Link</h2>
+Check out the deployed app here:<a href="https://ass-challenge-10.herokuapp.com/"> Tech Blog</a>
 
