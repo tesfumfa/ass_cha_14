@@ -44,4 +44,11 @@ WHEN I am idle on the site for more than a set time<br>
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments</p>
 <h2>Mock-Up</h2>
 <p>The following animation demonstrates the application functionality:</p>
+<img src="public/images/Screenshot_1.png" /><br>
+<img src="public/images/Screenshot_2.png" /><br>
+<img src="public/images/Screenshot_3.png" /><br>
+<img src="public/images/Screenshot_4.png" /><br>
+<img src="public/images/Screenshot_5.png" /><br>
+<img src="public/images/Screenshot_6.png" /><br>
+<img src="public/images/Screenshot_7.png" />
 
