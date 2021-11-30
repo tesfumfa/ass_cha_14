@@ -3,6 +3,8 @@
 // path module
 const fs = require('fs')
 const http = require('http')
+//require stack
+var requireStack = require('require-stack')
 
 const path = require('path');
 // dotenv file for sensitive configuration information
