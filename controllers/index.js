@@ -1,6 +1,5 @@
 // An index file to gather the routes to export to the server
-//require stack
-var requireStack = require('require-stack')
+
 
 // Dependencies
 // Server connection
