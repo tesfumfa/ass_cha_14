@@ -11,14 +11,9 @@
     "express-handlebars": "^6.0.2",
     "express-session": "^1.17.2",
     "handlebars-helpers": "^0.10.0",
-    "helper-markdown": "^1.0.0",
     "highlight.js": "^10.6.0",
-    "install-peers": "^1.0.3",
-    "install-peers-cli": "^2.2.0",
     "mysql2": "^2.3.3",
-    "npm-helper": "^0.0.6",
-    "sequelize": "^6.12.0-alpha.1",
-    "stack": "^0.1.0"
+    "sequelize": "^6.12.0-alpha.1"
   },
   "devDependencies": {},
   "scripts": {
