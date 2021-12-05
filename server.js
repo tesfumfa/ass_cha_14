@@ -1,10 +1,7 @@
 // Server for MVC Tech Blog
+
 // Dependencies
 // path module
-const fs = require('fs')
-const http = require('http')
-
-
 const path = require('path');
 // dotenv file for sensitive configuration information
 require('dotenv').config();
@@ -40,7 +37,7 @@ const sess = {
 // Initialize the server
 const app = express();
 // Define the port for the server
-const PORT = process.env.PORT || 3052;
+const PORT = process.env.PORT || 3001;
 
 // Give the server a path to the public directory for static files
 app.use(express.static(path.join(__dirname, 'public')));
@@ -64,5 +61,4 @@ app.use(routes);
 // force: false to maintain data - aka normal operation
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log('Now listening'));
-   
   });
