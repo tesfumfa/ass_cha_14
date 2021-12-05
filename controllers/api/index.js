@@ -1,6 +1,4 @@
 // An index file to gather the API routes and export them for use
-//require stack
-var requireStack = require('require-stack')
 
 // Dependencies
 // Server connection
