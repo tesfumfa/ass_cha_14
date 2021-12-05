@@ -3,10 +3,6 @@
 const router = require('express').Router();
 // User, Post, Vote models
 const { User, Post, Comment } = require('../../models');
-
-//require stack
-var requireStack = require('require-stack')
-
 // Express Session for the session data
 const session = require('express-session');
 // Authorization Helper
